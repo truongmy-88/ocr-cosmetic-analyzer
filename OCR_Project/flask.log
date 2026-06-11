@@ -1,0 +1,28 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.19.238.14:5001
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 104-580-919
+Using CPU. Note: This module is much faster with a GPU.
+127.0.0.1 - - [22/May/2026 12:46:54] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:46:54] "POST /api/search HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:48:06] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 12:48:06] "POST /api/search HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:21:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:21:57] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:21:57] "GET /static/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:22:33] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:22:33] "[31m[1mPOST /api/search HTTP/1.1[0m" 400 -
+127.0.0.1 - - [22/May/2026 13:22:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:22:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [22/May/2026 13:22:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [22/May/2026 13:27:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:27:35] "GET /static/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:27:35] "GET /static/js/main.js HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:28:51] "POST /api/analyze HTTP/1.1" 200 -
+127.0.0.1 - - [22/May/2026 13:28:55] "POST /api/search HTTP/1.1" 200 -
